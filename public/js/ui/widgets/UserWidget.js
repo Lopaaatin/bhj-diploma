@@ -12,8 +12,11 @@ class UserWidget {
    * необходимо выкинуть ошибку.
    * */
   constructor(element){
-
-  }
+    if (!element) {
+      throw new Error('Передан пустой element в метод constructor класса UserWidget!');
+    }
+    this.element = element;
+    }
 
   /**
    * Получает информацию о текущем пользователе
@@ -22,7 +25,10 @@ class UserWidget {
    * в элемент .user-name устанавливает имя
    * авторизованного пользователя
    * */
-  update(){
-
+  update() {
+    let currentUser = User.current()
+    if (App.state === 'user-logged') {
+      document.querySelector(".user-name").textContent = currentUser.name;
+    }
   }
 }
