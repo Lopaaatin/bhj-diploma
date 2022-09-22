@@ -29,6 +29,12 @@
       "email": "Miha@Mh",
       "password": "1111",
       "id": "3z9t3l648l8brvw31"
+    },
+    {
+      "name": "Павлик",
+      "email": "img.russia@g",
+      "password": "1111",
+      "id": "3z9t3l5xcl8bxalws"
     }
   ],
   "accounts": [
@@ -48,24 +54,54 @@
       "id": "3"
     },
     {
-      "name": "Тинёк",
-      "user_id": "1",
-      "id": "3z9t3laqcl8bqj5nw"
-    },
-    {
-      "name": "Сбер",
-      "user_id": "1",
-      "id": "3z9t3lc6kl8bqmjn1"
-    },
-    {
-      "name": "Альфа",
-      "user_id": "1",
-      "id": "3z9t3l1r4l8br6kxa"
-    },
-    {
       "name": "Тинек",
       "user_id": "3z9t3l648l8brvw31",
       "id": "3z9t3l648l8brw7w3"
+    },
+    {
+      "name": "567",
+      "user_id": "3z9t3l5xcl8bxalws",
+      "id": "3z9t3l5xcl8bxau1r"
+    },
+    {
+      "name": "222222",
+      "user_id": "3z9t3l5xcl8bxalws",
+      "id": "3z9t3l5xcl8bxeox1"
+    },
+    {
+      "name": "Теперь создаются?",
+      "user_id": "1",
+      "id": "3z9t3l7lkl8byv6wh"
+    },
+    {
+      "name": "555555",
+      "user_id": "1",
+      "id": "3z9t3l7lkl8bz48gl"
+    },
+    {
+      "name": "Илья",
+      "user_id": "1",
+      "id": "3z9t3l7lkl8bz5v7n"
+    },
+    {
+      "name": "222",
+      "user_id": "1",
+      "id": "3z9t3l7lkl8bz7798"
+    },
+    {
+      "name": "Нашел",
+      "user_id": "1",
+      "id": "3z9t3l5zcl8bzawxk"
+    },
+    {
+      "name": "жозлот",
+      "user_id": "1",
+      "id": "3z9t3l5zcl8cpgop4"
+    },
+    {
+      "name": "fgkhg",
+      "user_id": "1",
+      "id": "3z9t3lbr4l8cppyrg"
     }
   ],
   "transactions": [
@@ -266,15 +302,6 @@
       "account_id": "1",
       "user_id": "1",
       "created_at": "2022-09-21T14:42:55.579Z"
-    },
-    {
-      "id": "3z9t3lc6kl8bqm6ff",
-      "type": "income",
-      "name": "Бонус",
-      "sum": 100,
-      "account_id": "3z9t3laqcl8bqj5nw",
-      "user_id": "1",
-      "created_at": "2022-09-21T14:45:37.419Z"
     },
     {
       "id": "3z9t3l648l8brwivy",
