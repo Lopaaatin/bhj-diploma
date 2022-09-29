@@ -10,7 +10,7 @@ const createRequest = (options = {}) => {
   let formData = new FormData();
 
   if (options.data) {
-    if (options.method === 'GET') {
+    if (options.method === 'GET' || options.method === 'PUT') {
       url += `?${Object.entries(options.data).map(
                 ([key, value]) => `${encodeURIComponent(key)}=${encodeURIComponent(value)}`
               ).join('&')}`
